@@ -1,0 +1,45 @@
+/* Style the message box */
+.message-box {
+  width: 400px;
+  height: 200px;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the message box header */
+.message-box-header {
+  background-color: #ddd;
+  border-bottom: 1px solid #ccc;
+  padding: 20px;
+}
+
+/* Style the message box body */
+.message-box-body {
+  padding: 20px;
+}
+
+/* Style the message box footer */
+.message-box-footer {
+  background-color: #ddd;
+  border-top: 1px solid #ccc;
+  text-align: right;
+  padding: 20px;
+}
+
+/* Style the close button */
+.close-btn {
+  background-color: #ddd;
+  border: none;
+  color: #444;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 8px 12px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Style the close button when it has focus */
+.close-btn:focus {
+  background-color: #aaa;
+}
